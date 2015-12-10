@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import web
-import xml.etree.ElementTree as ET
 import math
 
 urls = (
@@ -8,7 +7,6 @@ urls = (
 )
 
 app = web.application(urls, globals())
-
 
 class is_prime:
 	def GET(self, prime):
@@ -23,7 +21,6 @@ class is_prime:
 		    return output
 	    output+='true"}'
 	    return output
-
 
 if __name__ == "__main__":
     app.run()
