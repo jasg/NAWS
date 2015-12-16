@@ -19,7 +19,7 @@ class is_prime:
 		if prime % i == 0:
 		    output+='false"}';
 		    return output
-	    output+='true"}'
+	    output+='yes"}'
 	    return output
 
 if __name__ == "__main__":
