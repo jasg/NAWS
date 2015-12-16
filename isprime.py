@@ -17,7 +17,7 @@ class is_prime:
 		return output;
 	    for i in range(3, int(math.sqrt(prime)) + 1, 2):
 		if prime % i == 0:
-		    output+='false"}';
+		    output+='falser"}';
 		    return output
 	    output+='true"}'
 	    return output
